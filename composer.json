@@ -1,13 +1,13 @@
 {
-    "name": "klarna/php-xmlrpc",
-    "description": "PHP SDK for Klarna's XMLRPC API",
-    "homepage": "http://developers.klarna.com",
+    "name": "frontend-studios/klarna-xmlrpc",
+    "description": "Fork of Klarna's XMLRPC API modified for plentymarkets",
+    "homepage": "https://github.com/frontend-studios/klarna-xmlrpc",
     "license": "Apache-2.0",
     "type": "library",
     "authors": [
         {
-            "name": "Klarna AB",
-            "email": "integration@klarna.com"
+            "name": "Frontend Studios GmbH",
+            "email": "plugin@frontend-studios.de"
         }
     ],
     "minimum-stability": "stable",
@@ -15,7 +15,7 @@
         "ext-curl": "*",
         "ext-xml": "*",
         "php": ">=5.4.0",
-        "phpxmlrpc/phpxmlrpc": "~4.0"
+        "frontend-studios/phpxmlrpc": "~4.0"
     },
     "require-dev": {
         "apigen/apigen": "4.0.*",
